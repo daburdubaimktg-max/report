@@ -4,26 +4,31 @@ Accurate, usable transcripts and a **deep (non-superficial) analysis** of the
 Rory Sutherland "irrational value" corpus, plus the reusable pipeline that
 produced them.
 
-## What's already in this repo (batch 1 — 14 of 37 videos)
+## What's in this repo (complete — all 37 videos)
 
-- **`transcripts/clean/`** — 14 accurate, timestamped transcripts (~135,000
-  words), cleaned from YouTube captions. Includes the full *Alchemy* talk,
-  TEDxOxford, "What is Value?", and the long-form interviews.
-- **`transcripts/analysis/01.md … 14.md`** — a deep 9-section analysis of each
+- **`transcripts/clean/`** — 37 accurate, timestamped transcripts (~381,000
+  words), cleaned from YouTube captions. Covers the full *Alchemy* talk,
+  TEDxOxford / TEDxBrighton / TEDxNewSt, the Nudgestock keynotes, the 2-hour
+  long-form interviews (Diary of a CEO, Modern Wisdom), the Scott Galloway
+  brand debate, and the Georgist / culture-war material.
+- **`transcripts/analysis/01.md … 37.md`** — a deep 9-section analysis of each
   video (thesis, argument chain, named principles traced to their originating
   researchers, every case study rated load-bearing vs. rhetorical, quotable
   lines with timestamps, contrarian claims with steelmen, applications,
   critical evaluation). Each was produced by a model reading the *entire*
   transcript — the depth NotebookLM's snippet-retrieval can't reach.
-- **`SYNTHESIS.md`** — the capstone: Sutherland's unified theory of value,
-  15 ranked recurring principles, a taxonomy of irrational value, seven genuine
-  cross-video contradictions, the repeatable "Sutherland Method," a 15-tactic
-  playbook, a thematic study guide, and the best verbatim quotes — all cited
-  back to video numbers.
-- **`transcripts/SOURCES.md`** — video-ID provenance for the 14.
+- **`SYNTHESIS.md`** — the capstone across all 37: Sutherland's unified theory
+  of value, ~18 ranked recurring principles, a taxonomy of irrational value,
+  his intellectual toolkit, cross-video contradictions, the repeatable
+  "Sutherland Method," a ~20-tactic playbook, a thematic study guide, the 20
+  best verbatim quotes, and open questions — all cited back to video numbers.
+- **`transcripts/SOURCES.md`** — video-ID provenance for all 37.
 
-To extend to the remaining ~23 videos, add their URLs and re-run the pipeline
-below; the analysis and synthesis steps are identical.
+Shareable zips are regenerated into `dist/` (gitignored): a transcripts
+archive, an analyses archive, and a combined full-report archive.
+
+> **Note:** video #18 ("Sweat the Small Stuff") is the same talk first used to
+> demo the pipeline in `demo/` — one genuine duplicate in the source list.
 
 ---
 
